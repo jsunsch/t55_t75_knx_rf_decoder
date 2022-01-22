@@ -1,0 +1,25 @@
+{
+  "name": "knx_dpt_decoder",
+  "version": "1.0.0",
+  "description": "Subscribes to an MQTT topic which publishes a KNX data payload originating from an Uponor device compatible with the Upono C-55 Controller. The input data is parsed and published to the same MQTT broker. ",
+  "main": "index.js",
+  "dependencies": {
+    "knx-datapoints": "^1.1.2",
+    "mqtt": "^4.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "local.js"
+  },
+  "author": "Jan Bonde Schultz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsunsch/t55_t75_knx_rf_decoder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsunsch/t55_t75_knx_rf_decoder/issues"
+  },
+  "homepage": "https://github.com/jsunsch/t55_t75_knx_rf_decoder#readme"
+}

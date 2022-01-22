@@ -23,7 +23,7 @@ Notice that the command is tuned to `868.3 MHz` which is for the EU region, KNX-
 ## Decoding the KNX-RF data
 
 The Uponor T-55 and T-75 thermostats sends two different signals of different sizes, one with 6 data octets and one with 8 data octets.
-rtl_433 decodes the majority of the received KNX-RF signal, here is an example data string that has not yet been decoded `1144ff030074026009ec0005ff0001e800800cad7a14`
+rtl_433 decodes the majority of the received KNX-RF signal, here is an example data string that has not yet been decoded `1144ff030074026009ec0005ff0001e800800cad7a14`.
 
 **Important** rtl_433 strips the CRC octets from both block 1 and block 2. 
 
